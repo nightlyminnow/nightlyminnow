@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Highrock</title>
+    <link href='https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css' rel='stylesheet'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+    <script src='https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js'></script>
+  </head>
+  <body>
+    <header>
+      <h1>Highrock</h1>
+    </header>
+    <table>
+      <tr>
+        <th>Language</th>
+        <th>Translation</th>
+      </tr>
+      <tr>
+        <td>English</td>
+        <td id='displayName_en'></td>
+      </tr>
+      <tr>
+        <td>Simplified Chinese</td>
+        <td id='displayName_cn'></td>
+      </tr>
+    </table>
+    <button type='button' name='new' onclick='generateName()'>NEW</button>
+    <script src='generate.js'></script>
+  </body>
+</html>
