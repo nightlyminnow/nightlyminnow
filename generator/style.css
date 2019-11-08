@@ -1,0 +1,35 @@
+* {
+  margin: 14px;
+  font-family: 'Roboto Mono';
+}
+
+*::selection {
+  background-color: rgba(241,212,212,0.99);
+  color: #484c7f;
+}
+
+body {
+  position: absolute;
+  top: 20%;
+  left: 16vw;
+  font-size: 36px;
+  background-color: #484c7f;
+  color: #f1d4d4;
+
+}
+
+button {
+  border: 0;
+  padding: 6px 24px;
+  font-size: 20px;
+  background-color: #f1d4d4;
+  color: #484c7f;
+}
+
+button:hover {
+  background-color: #ac8daf;
+}
+
+button:focus {
+  outline: none;
+}
