@@ -12,7 +12,7 @@ body {
   position: absolute;
   top: 20%;
   left: 16vw;
-  font-size: 36px;
+  font-size: 2.2em;
   background-color: #484c7f;
   color: #f1d4d4;
 
@@ -21,7 +21,7 @@ body {
 button {
   border: 0;
   padding: 6px 24px;
-  font-size: 20px;
+  font-size: 0.6em;
   background-color: #f1d4d4;
   color: #484c7f;
 }
