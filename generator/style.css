@@ -19,13 +19,16 @@ body {
 
 button {
   border: 0;
-  padding: 0.6vh 3vh;
+  padding: 0 3vh;
+  line-height: 2.6vh;
+  height: 3.8vh;
   font-size: 2.6vh;
   background-color: #f1d4d4;
   color: #484c7f;
+  vertical-align: text-bottom;
 }
 
-button:hover {
+button:active {
   background-color: #ac8daf;
 }
 
