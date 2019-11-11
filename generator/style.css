@@ -3,10 +3,6 @@
   font-family: 'Roboto Mono';
 }
 
-*::selection {
-  background-color: #ddb6c6;
-}
-
 body {
   position: absolute;
   top: 16vh;
@@ -14,7 +10,6 @@ body {
   font-size: 4vh;
   background-color: #484c7f;
   color: #f1d4d4;
-
 }
 
 button {
@@ -28,10 +23,13 @@ button {
   vertical-align: text-bottom;
 }
 
-button:active {
-  background-color: #ac8daf;
+:focus {
+  box-shadow:
+    0 0 0 3px #484c7f,
+    0 0 0 6px #ac8daf;
+  outline: none;
 }
 
-button:focus {
-  outline: none;
+button:active {
+  background-color: #ac8daf;
 }
